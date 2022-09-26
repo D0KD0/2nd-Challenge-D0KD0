@@ -1,8 +1,9 @@
 # Module 2 Challenge : Lernantino/D0KD0
 
 ## Description
-This is a second project to build a portfolio for myself. Example page image was given without code - which made me to start from a scratch. <br>
-My portfolio page is looking like the example design but I replaced the contents with my personal information. <br>
+This is a second project to build a portfolio for myself.
+Example page image was given without code - which made me to start from a scratch.
+My portfolio page is looking like the example design but I replaced the contents with my personal information.
 Images used in this page are all from a free-soured website.
 
 ## Screenshot
