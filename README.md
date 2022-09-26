@@ -6,7 +6,7 @@ My portfolio page is looking like the example design but I replaced the contents
 Images used in this page are all from a free-soured website.
 
 ## Screenshot
-<img src="" />
+<img src="./assets/images/screenshot.png" />
 
 ## Lesson learned
 During working on the assignment, I learned following things -

@@ -1,4 +1,3 @@
-/* Block 1 */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -25,6 +24,11 @@ header h1 #Ler {
     color: rgb(46,52,66);
     background-color: rgb(165,200,201);
     margin: 0px 0px 0px -20px;
+}
+
+span img {
+    width: 50px;
+    height: 50px;
 }
 
 a:link, :visited {
@@ -74,7 +78,6 @@ a:link, :visited {
     color: rgb(46,52,66);
 }
 
-/* Block 2 */
 .outer {
     position: relative;
     background-image: url("../images/subtitle-background.jpeg");
@@ -82,7 +85,7 @@ a:link, :visited {
     height: 200px;
 }
 
-.bottomright{
+.bottomright {
     width: auto;
     height: auto;
     position: absolute;
@@ -96,7 +99,19 @@ a:link, :visited {
     padding: 10px 10px;
 }
 
-/* Block 3 */
+.bottomleft {
+    width: 100px;
+    height: 22px;
+    position: relative;
+    bottom: 30px;
+    left: 0px;
+    font-weight: bold;
+    background-color: rgb(165,200,201);
+    color: rgb(46,52,66);
+    font-size: 20px;
+    text-align: center;
+}
+
 .menu {
     width: 30%;
     height: 80%;
@@ -108,7 +123,23 @@ a:link, :visited {
     text-align: right;
     color: rgb(80,87,108);
     font-size: 30px;
+}
 
+div {
+    background-size: cover;
+    display: inline-block;
+}
+
+div .longer {
+    max-height: auto;
+    max-width: 600px;
+    background-size: cover;
+}
+
+div .shorter {
+    height: 200px;
+    width: 300px;
+    background-size: cover;
 }
 
 .detailed-contents {
@@ -119,31 +150,12 @@ a:link, :visited {
     border-left: 5px solid rgb(80,87,108);
 }
 
-.detailed-contents img {
-    max-height: auto;
-    max-width: 400px;
-    background-size: cover;
-}
-
 .detailed-contents h3 {
     color: rgb(160,163,174);
     text-align: left;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: lighter;
     font-size: 20px;
-}
-
-.bottomleft{
-    width: 100px;
-    height: 22px;
-    position: relative;
-    bottom: 30px;
-    left: 0px;
-    font-weight: bold;
-    background-color: rgb(165,200,201);
-    color: rgb(46,52,66);
-    font-size: 20px;
-    text-align: center;
 }
 
 .contact-me-details {
@@ -161,3 +173,10 @@ footer h4 {
     text-align: center;
     font-weight: lighter;
 }
+
+@media screen and (max-width: 700px) {
+    main,
+    nav {
+      flex-direction: column;
+    }
+  }
